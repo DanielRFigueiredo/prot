@@ -9,6 +9,16 @@
   padding: 120px 0 57px;
 
   text-align: center;
+
+
+
+  i {
+    font-size: 32px;
+    display: block;
+    margin-top: 94px;
+    color: var(--gray-400);
+    cursor: pointer;
+  }
 }
 
 
@@ -95,14 +105,7 @@
 
     span {
       font: var(--text-md);
+      color: var(--gray-500);
     }
   }
-
-}
-
-
-i {
-  font-size: 32px;
-  display: block;
-  margin-top: 64px;
 }

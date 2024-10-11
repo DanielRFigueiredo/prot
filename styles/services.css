@@ -1,0 +1,41 @@
+.services {
+  padding-block: 88px 120px;
+  text-align: center;
+
+  .grid {
+    margin-top: 56px;
+
+    grid-template-columns: repeat(3, 280px);
+    gap: 24px;
+    
+  }
+
+  >p {
+    margin-bottom: 8px;
+  }
+
+  .card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    border-radius: 12px;
+    border: 2px solid var(--gray-200);
+
+    i {
+      font-size: 48px;
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
+
+    p {
+      margin-top: 8px;
+      color: var(--gray-500);
+    }
+
+  }
+
+}

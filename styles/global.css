@@ -11,14 +11,14 @@
   --gray-400: #878ea1;
   --gray-500: #c0c4ce;
   --gray-600: #e2e4e9;
-  
+
   --font-family-asap: "Asap", serif;
   --font-family-inconsolata: 'Inconsolata', monospace;
   --font-family-maven-pro: 'Maven Pro', sans-serif;
 
   --title-lg: 700 56px/120% var(--font-family-asap);
-  --title-md: 800 24px/120% var(--font-family-asap);
-  --title-sm: 800 16px/120% var(--font-family-asap);
+  --title-md: 700 24px/120% var(--font-family-asap);
+  --title-sm: 700 16px/120% var(--font-family-asap);
 
   --subtitle: 500 20px/120% var(--font-family-inconsolata);
 
@@ -50,4 +50,3 @@ h3 {
   font: inherit;
 }
 
-h1 {}
